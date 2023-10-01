@@ -1,0 +1,82 @@
+/* Basic selector */
+/* class selector */
+.element1 {
+    color: blue;
+    background-color: aqua;
+}
+/* id selector */
+#element2 {
+    color: yellow;
+    background-color: brown;
+}
+
+.element3 {
+    color: orangered;
+    background-color: black;
+}
+
+#element3 {
+    color: yellowgreen;
+    background-color: red;
+}
+/* group selector */
+p, span, h1 {
+    color: red;
+    background-color: black;
+}
+
+/* Advance selector */
+/* descendent method */
+div p {
+    color: hotpink;
+    background-color: brown; 
+}
+/* direct child */
+div>p{
+    color: magenta;
+    background-color: black;
+}
+/* immediate sibiling */
+li+li{
+    color: blue;  
+}
+/* general sibiling */
+li ~ li {
+    color: red;
+}
+
+/* pseudo class */
+
+/* lvha */
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color:red;
+}
+
+a:hover {
+    font-size: 100px;
+    color: green;
+}
+
+a:active {
+   color: aqua;
+}
+
+/* first child */
+ul li:first-child{
+    color: bisque;
+    background-color: black;
+}
+/* last child */
+ul li:last-child{
+    color: magenta;
+    background-color: black;
+}
+
+/* nth child */
+ul li:nth-child(2n + 1){
+    color: hotpink;
+}

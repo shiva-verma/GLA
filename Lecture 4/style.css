@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.item1 {
+    /* border: 2px solid red; */
+    border: 5px solid red;
+    /* margin-top: 40px; */
+    /* margin: 10px 20px 30px 40px; */
+    /* margin: 10px 20px; */
+    margin: 10px 20px 30px;
+    /* padding: 10px 20px 30px 40px; */
+    /* padding-top: 30px; */
+    padding: 40px;
+} 
+.item2 {
+    border: 3px solid green;
+    /* margin-top: 40px; */
+    /* margin: 10px 20px 30px 40px; */
+    /* margin: 10px 20px; */
+    margin: 10px 20px 30px;
+    /* padding: 10px 20px 30px 40px; */
+    /* padding-top: 30px; */
+    padding: 40px;
+}
+.item3 {
+    border: 4px solid blue;
+    /* margin-top: 40px; */
+    /* margin: 10px 20px 30px 40px; */
+    /* margin: 10px 20px; */
+    margin: 10px 20px 30px;
+    /* padding: 10px 20px 30px 40px; */
+    /* padding-top: 30px; */
+    padding: 40px;
+}

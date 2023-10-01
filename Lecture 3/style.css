@@ -1,0 +1,58 @@
+/* pseudo-element */
+/* first-letter */
+p::first-letter {
+    font-size: 50px;
+    color: red;
+}
+/* first-line */
+p::first-line {
+    color: blue;
+    background-color: azure;
+}
+/* selection */
+::selection {
+    color: black;
+    background-color: red;
+}
+/* before */
+h2::before {
+    content: "good morning ";
+    font-size: 50px;
+    color: darkolivegreen;
+}
+/* after */
+h2::after {
+    content: "*";
+    font-size: 30px;
+    color: red;
+}
+
+/* css-unit */
+.container {
+    border: 2px solid red;
+    background-color: red;
+    font-size: 10px;
+    /* width: 50%; */
+}
+
+.child {
+    /* border: 2px solid blue; */
+    background-color: blue;
+
+    /* percentage */
+    /* width: 50%; */
+
+    /* view width -vw */
+    /* width: 50vw; */
+
+    /* view-height - vh */
+    /* height: 100vh; */
+
+    /* rem */
+    /* font-size: 5rem; */
+
+    /* em */
+    /* font-size: 8em; */
+}
+
+

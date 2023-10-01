@@ -1,0 +1,28 @@
+.container {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 100px;
+    /* transform: translateY(100px); */
+    /* transform: scale(2,3); */
+    /* transform: rotate(-40deg); */
+    /* transform: skewY(110deg); */
+    
+    /* transform: matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()); */
+
+    /* 3D */
+    /* transform: rotateY(180deg); */
+    /* transform: rotateZ(-40deg); */
+
+    /* transition */
+    /* transition-property: height; */
+    /* transition-duration: 5s; */
+    /* transition-delay: 2s; */
+    /* transition: height 3s, width 3s, transform 3s; */
+    /* transition-timing-function: ease; */
+}
+.container:hover {
+    height: 400px;
+    width: 300px;
+    /* transform: rotate(360deg); */
+}

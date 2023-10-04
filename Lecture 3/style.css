@@ -1,19 +1,20 @@
 /* pseudo-element */
 /* first-letter */
 p::first-letter {
-    font-size: 50px;
-    color: red;
+    font-size: 70px;
+    color: green;
+    background-color: brown;
 }
 /* first-line */
 p::first-line {
     color: blue;
-    background-color: azure;
+    background-color: black;
 }
 /* selection */
-::selection {
+/* ::selection {
     color: black;
-    background-color: red;
-}
+    background-color: transparent;
+} */
 /* before */
 h2::before {
     content: "good morning ";

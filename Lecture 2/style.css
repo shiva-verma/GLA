@@ -37,13 +37,13 @@ div>p{
     background-color: black;
 }
 /* immediate sibiling */
-li+li{
+/* li+li{
     color: blue;  
-}
+} */
 /* general sibiling */
-li ~ li {
+/* li ~ li {
     color: red;
-}
+} */
 
 /* pseudo class */
 
@@ -66,17 +66,30 @@ a:active {
 }
 
 /* first child */
-ul li:first-child{
+/* ul li:first-child{
     color: bisque;
     background-color: black;
-}
+} */
 /* last child */
-ul li:last-child{
+/* ul li:last-child{
     color: magenta;
     background-color: black;
-}
+} */
 
 /* nth child */
-ul li:nth-child(2n + 1){
+/* ul li:nth-child(2n + 1){
     color: hotpink;
+} */
+
+/* ul li:first-child{
+    color: red;
+    background-color: black;
+} */
+/* ul li:last-child {
+    color: yellowgreen;
+    background-color: brown;
+} */
+ul li:nth-child(0n + 5){
+    color: yellowgreen;
+    background-color: brown;
 }

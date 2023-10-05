@@ -1,0 +1,73 @@
+.container {
+    border: 2px solid blue;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 1fr 1fr 0.5fr;
+    grid-template-areas: "nav nav nav nav"
+                        "box1 box2 box3 box4"
+                        "card1 card1 cont cont"
+                        "footer footer footer footer";
+}
+
+.header {
+    background-color: #CCCCCC;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-area: nav;
+}
+.header a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 8px 20px;
+    border-radius: 40px;
+}
+.header a:hover {
+    background-color: red;
+}
+.img1 {
+    height: 40px;
+}
+.box1 {
+    background-color: blue;
+    grid-area: box1;
+}
+.box2 {
+    background-color: green;
+    grid-area: box2;
+}
+.box3 {
+    background-color: red;
+    grid-area: box3;
+}
+.box4 {
+    background-color: yellowgreen;
+    grid-area: box4;
+}
+.card1 {
+    background-color: orange;
+    grid-area: card1;
+}
+.content {
+    background-color: pink;
+    grid-area: cont;
+}
+.footer {
+    background-color: orangered;
+    grid-area: footer;
+}
+@media screen and (max-width:600px) {
+    .container {
+        grid-template-areas: "nav"
+                                "box1"
+                                "box2"
+                                "box3"
+                                "box4"
+                                "card1 cont"
+                                "footer";
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 0.7fr 0.7fr 0.7fr 0.7fr 1fr 0.4fr;
+    }
+}
